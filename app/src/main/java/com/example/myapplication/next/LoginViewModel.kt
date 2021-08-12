@@ -19,20 +19,33 @@ class LoginViewModel: ViewModel() {
     val result: LiveData<String>
         get() = _result
 
+    private val _eventOnError = MutableLiveData<String>()
+    val eventOnError: LiveData<String>
+        get() = _eventOnError
+
+    private val _eventForgotPassword = MutableLiveData<Boolean>()
+    val eventForgotPassword: LiveData<Boolean>
+        get() = _eventForgotPassword
+
+    private val _eventAuthenticated = MutableLiveData<Boolean>()
+    val eventAuthenticated: LiveData<Boolean>
+        get() = _eventAuthenticated
 
 
-    init {
-        _cpf.value = ""
-        _password.value = ""
-    }
 
     /** Methods for updating the UI **/
     fun onLogin() {
         setTextResult()
         _password.value = ""
         _cpf.value = ""
+        _eventAuthenticated.value = true
 
     }
+
+    fun onForgotPassword(){
+        _eventForgotPassword.value = true
+    }
+
     private fun setTextResult(){
         _result.value = _cpf.value.plus(" ===== ").plus(_password.value)
     }
@@ -45,4 +58,17 @@ class LoginViewModel: ViewModel() {
     fun setTextCpf(s: Editable){
         _cpf.value = s.toString()
     }
+
+    fun onEventForgotPasswordComplete(){
+        _eventForgotPassword.value = false
+    }
+
+    fun onEventErrorComplete(){
+        _eventOnError.value = null
+    }
+
+    fun onEventAuthenticatedComplete(){
+        _eventAuthenticated.value = false
+    }
+
 }
