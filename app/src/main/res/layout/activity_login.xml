@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="view_model"
+            type="com.example.myapplication.next.LoginViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:focusableInTouchMode="true"
+        android:windowSoftInputMode="stateAlwaysVisible"
+        android:focusable="true"
+        android:id="@+id/cl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:clickable="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/login_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/size_spacing_inline_margins"
+            android:layout_marginEnd="@dimen/size_spacing_inline_margins"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/view_corned_background_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ntf_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_spacing_inline_margins"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="@dimen/size_spacing_inline_margins"
+                android:afterTextChanged="@{view_model::setTextCpf}"
+                android:text="@{view_model.cpf}"
+                android:hint="@string/hint_cpf"
+                android:textColorHint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ntf_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_spacing_inline_margins"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="@dimen/size_spacing_inline_margins"
+                android:layout_marginBottom="30dp"
+                android:afterTextChanged="@{view_model::setTextPassword}"
+                android:text="@{view_model.password}"
+                android:hint="@string/hint_password"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ntf_user"
+                app:layout_constraintVertical_bias="0.0"
+                android:maxLength="6"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/nbt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:focusable="true"
+            android:onClick="@{() -> view_model.onLogin()}"
+            android:text="@string/activity_login_login_button_title"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/login_container"
+            app:layout_constraintStart_toStartOf="@+id/login_container"
+            app:layout_constraintTop_toBottomOf="@+id/login_container" />
+
+        <TextView
+            android:id="@+id/nbt_forgot_password"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/spacing_20"
+            android:text="@{view_model.result}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/nbt_login"
+            app:layout_constraintStart_toStartOf="@id/nbt_login"
+            app:layout_constraintTop_toBottomOf="@id/nbt_login"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

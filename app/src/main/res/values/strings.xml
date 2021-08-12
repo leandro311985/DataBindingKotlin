@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="skip">Capturar texto</string>
+    <string name="play_again">Play Again</string>
+    <string name="reset">Limpar</string>
+    <string name="title_text">guess the word!</string>
+    <string name="play_button">Play</string>
+    <string name="get_ready">Get ready to</string>
+    <string name="got_it">Got it</string>
+    <string name="end_game">End game</string>
+    <string name="word_is">Digite o Texto aqui</string>
+    <string name="quote_format">\"%s\"</string>
+    <string name="score_format">Current Score: %d</string>
+
+    <string name="next_joy_url">https://next.me/nextjoy</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="text_field_label_text_5">Senha</string>
+    <string name="text_field_label_text_5_answer">123456</string>
+    <string name="text_field_hint_text_5">A senha deve ter 6 dígitos</string>
+    <string name="text_field_error_text_5">Senha inválida</string>
+    <string name="agency_recurring_login">Agência %s</string>
+    <string name="account_recurring_login">Conta %s</string>
+    <string name="login_recurring_login">entrar</string>
+    <string name="forgot_my_password_recurring_login">esqueci minha senha</string>
+    <string name="shortcut_recurring_login">atalhos</string>
+    <string name="contact_recurring_login">contato</string>
+    <string name="token_recurring_login">token</string>
+    <string name="text_version">Versão</string>
+
+    <string name="good_morning">Bom dia,</string>
+    <string name="good_afternoon">Boa tarde,</string>
+    <string name="good_night">Boa noite,</string>
+    <string name="title_change_user">Você quer usar outra conta?</string>
+    <string name="body_change_user">Os dados da conta atual não vão ficar gravados nesse celular ;)</string>
+    <string name="button_yes">Sim</string>
+    <string name="button_no">Não</string>
+    <string name="login_wrong_cpf_error">CPF inválido</string>
+    <string name="login_wrong_password_error">Senha inválida</string>
+    <string name="login_state_authenticated">AUTHENTICATED</string>
+    <string name="wrong_code_error">Código inválido</string>
+    <string name="activity_login_forgot_password_button_title">Esqueci minha senha</string>
+    <string name="activity_login_login_button_title">Entrar</string>
+    <string name="biometric_failed_message">Biometria falhou! Digite sua senha.</string>
+    <string name="fingerprint_login">Login por digital</string>
+    <string name="enable_fingerprint">Deseja habilitar login com digital?</string>
+
+    <!-- Invite -->
+    <string name="title_invite_header">nextJoy é o app que vai\ntransformar o futuro dos seus\nfilhos, ensinando como cuidar do\ndinheiro de uma forma divertida.</string>
+    <string name="title_invite_create_account_title">Para abrir uma conta nextJoy:</string>
+    <string name="title_invite_create_account_next_message">O responsável precisa abrir uma conta gratuita no next</string>
+    <string name="title_invite_create_account_menu_message">Ai é só criar a conta <b>dentro do app next em menu > nextJoy</b></string>
+    <string name="text_open_next_app">Ir para o app next</string>
+    <string name="invite_next_package">br.com.bradesco.next</string>
+    <string name="text_share">compartilhar</string>
+    <string name="text_invite_to_next">Convite Next</string>
+    <string name="text_invite_mail_body">Vem conhecer o nextJoy, uma conta digital para menores de idade, compartilhada com o responsável, com conteúdos de Educação Financeira e toda a magia da Disney.\nPara abrir uma conta pra o seu dependente, você precisa ter uma conta no next.\n\nClique aqui pra começar essa Jornada!\nhttps://next.me/nextjoy</string>
+    <string name="text_share_document">Compartilhar</string>
+    <string name="text_invite_mail_nomailapp">Por favor instale algum aplicativo de email para compartilhar</string>
+    <string name="title_invite_success_1">Convite enviado!</string>
+    <string name="title_invite_success_2">Enviamos o convite para seu resposável, agora é só ele criar sua conta.</string>
+    <string name="text_invite_login">Entrar na conta</string>
+    <string name="text_invite_not_sent">Não foi possível enviar o convite!</string>
+
+    <!-- TOKEN -->
+    <string name="text_end_token">Token final %s</string>
+
+    <!-- CONTACT -->
+    <string name="text_contact">Contato</string>
+    <string name="text_contact_title">Estamos aqui para te ajudar!</string>
+    <string name="text_contact_text">Se precisar falar com a gente,\nenvia um e-mail ou liga na central de\n atendimento exclusiva do nextJoy ;)</string>
+    <string name="text_email">E-mail</string>
+    <string name="text_facedonext">/facedonext</string>
+    <string name="text_falanext">\@falanext</string>
+    <string name="text_phones">Telefones</string>
+    <string name="text_portal_do_consumidor">Portal do Consumidor</string>
+    <string name="text_procons">PROCONs</string>
+    <string name="link_outside_app">Esse link abre uma página na internet fora do app, quer continuar?</string>
+    <string name="text_yes">Sim</string>
+    <string name="text_no">Não</string>
+    <string name="text_invite_facebook_nofacebookapp">Por favor instale o Facebook Messenger para compartilhar</string>
+    <string name="text_call">Ligue</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="tile_error_token">\"Token inválido\"</string>
+    <string name="token_error_msn">Você precisa logar novamente.</string>
+
+    <string name="text_bloqued_password_title">Bloqueio de segurança</string>
+    <string name="text_bloqued_password">Senha bloqueada</string>
+    <string name="text_bloqued_password_text">Você errou sua senha 3 vezes e seu\nacesso foi bloqueado. Crie uma nova\nsenha para acessar sua conta.</string>
+    <string name="text_not_now">Agora não</string>
+
+    <string name="button_label_continue">Continuar</string>
+
+    <!-- Forgot password -->
+    <string name="resend_code">Reenviar código</string>
+    <string name="forgot_password_insert_code">Digite aqui o código que enviamos\npara o e-mail do seu responsável</string>
+    <string name="type_here">Digite aqui</string>
+    <string name="text_type_your_password">Digite seu CPF para\nmudar sua senha</string>
+    <string name="text_confirm_new_password">Confirmar nova senha</string>
+    <string name="text_new_password">Nova senha</string>
+    <string name="error_text_password_not_the_same">As senhas não são iguais</string>
+    <string name="text_create_new_password">Crie uma nova senha de\n6 números pra acessar o app</string>
+    <string name="header_forgot_my_password">ESQUECI MINHA SENHA</string>
+    <string name="title_password_changed">Senha alterada</string>
+    <string name="text_password_change_confirmation">Você já pode usar a nova senha para entrar na sua conta.</string>
+    <string name="text_enter_account">ENTRAR NA CONTA</string>
+    <string name="header_error">Ish! Deu erro</string>
+    <string name="text_ok">ok</string>
+    <string name="header_resend_code_success">"Código reenviado"</string>
+    <string name="text_resend_code_success">Agora é só pedir o novo código\npara o seu responsável ;)</string>
+    <string name="text_wrong_password">Se você errou 3 vezes, sua conta pode estar bloqueada. Fale para seu responsável olhar o e-mail dele.</string>
+    <string name="header_wrong_password">CPF ou Senha incorretos!</string>
+
+    <string name="text_not_equals_password">As senhas não batem. Tente novamente.</string>
+    <string name="text_error_minimum_lenght_password">A senha deve ter no mínimo 6 dígitos numéricos.</string>
+    <string name="text_error_password_numbers_repeated">A senha não pode ter números repetidos.</string>
+    <string name="text_error_password_numbers_sequence">A senha não pode ter números sequenciais.</string>
+    <string name="text_error_password_numbers_sequence_inverted">A senha não pode ter números sequenciais invertidos.</string>
+    <string name="text_error_password_numbers_sequence_cpf">A senha não pode ter números sequenciais do CPF</string>
+    <string name="text_error_password_numbers_sequence_cpf_inverted">A senha não pode ter números sequenciais invertidos do CPF.</string>
+    <string name="text_invalid_password">Senha inválida</string>
+
+    <string name="text_choose_password">Como escolher uma senha</string>
+    <string name="text_choose_password_subtitle_1">DICAS BÁSICAS</string>
+    <string name="text_choose_password_subtitle_2">DICAS DE SEGURANÇA</string>
+    <string name="text_choose_password_text1">Essa senha serve apenas para entrar no app.</string>
+    <string name="text_choose_password_text2">Essa senha deve ter 6 números.</string>
+    <string name="text_choose_password_text3">Não usar sequências de número como 123456.</string>
+    <string name="text_choose_password_text4">Não usar números repetidos como 000000.</string>
+    <string name="text_choose_password_text5">Não usar números de sua data de nascimento, RG ou CPF.</string>
+    <string name="header_password_app">SENHA DO APP</string>
+    <string name="title_confirm_change_password">Senha alterada com sucesso!</string>
+    <string name="text_confirm_change_password">Você já pode acessar o app com sua nova senha à partir de agora.</string>
+    <string name="profile_module_name">Perfil</string>
+    <!-- CHANGE DEVICE WARNING -->
+    <string name="header_change_device_warning">TROCA DE CELULAR</string>
+    <string name="text_title_change_device_warning">Opa! Parece que você está\nusando um celular diferente</string>
+    <string name="text_description_change_device_warning">Por segurança, enviamos um código no\ne-mail do seu responsável. Peça para ele\no código e digite aqui.</string>
+    <string name="btn_text_change_device_warning">DIGITAR CÓDIGO</string>
+
+    <!-- CIRCUIT BREAKER WARNING -->
+    <string name="header_circuit_breaker_warning">INSTABILIDADE</string>
+    <string name="title_circuit_breaker_warning">Algo deu errado!</string>
+    <string name="text_circuit_breaker_warning">Mas não se preocupe, já estamos trabalhando para resolver.</string>
+
+    <!-- FORCE UPDATE WARNING -->
+    <string name="header_force_update">ATUALIAÇÃO</string>
+    <string name="title_force_update">Nova versão disponível</string>
+    <string name="text_force_update">Você sabia que o next joy tem uma nova\nversão do aplicativo? Atualize para\ncontinuar usando e aproveitar as\nnovidades ;)</string>
+    <string name="btn_force_update">ATUALIZAR APP</string>
+
+    <!-- ATM -->
+    <string name="title_shortcut">Atalhos</string>
+    <string name="text_search_atm">Buscar caixas eletrônicos</string>
+
+    <string name="forgout_my_password">Esqueci minha senha</string>
+    <string name="ok">Ok</string>
+    <string name="erro">ERRO</string>
+    <string name="hello">Olá</string>
+
+    <!-- BLOCKED PASSWORD WARNING -->
+    <string name="header_blocked_password_warning">BLOQUEIO DE SEGURANÇA</string>
+    <string name="title_blocked_password_warning">Senha Bloqueada</string>
+    <string name="text_blocked_password_warning">Você errou a senha 3 vezes e seu\nacesso foi bloqueado. Crie uma nova\nsenha para entrar na sua conta.</string>
+    <string name="btn_create_new_password">CRIAR UMA NOVA SENHA</string>
+    <string name="btn_not_now">AGORA NÃO</string>
+    <string name="text_weak_internet_signal">Mas não se preocupe, já estamos\ntrabalhando para resolver.</string>
+
+    <!-- TOKEN -->
+    <string name="text_token_empty">----</string>
+
+    <!-- CHANGE DEVICE CONFIRMATION -->
+    <string name="title_confirm_change_device">Tudo certo!</string>
+    <string name="text_confirm_change_device">Seu novo celular foi cadastrado\ncom sucesso.</string>
+    <string name="text_confirm_first_login">Sua conta foi ativada com sucesso.</string>
+    <string name="description_error_login_token">Erro com o login via digital</string>
+    <string name="text_title_change_device_first_access">Que bom que você chegou!</string>
+    <string name="text_description_change_device_first_access">Para entrar na sua conta pela primeira\nvez, peça o código que enviamos para o\ne-mail do seu responsável.</string>
+    <string name="texte_header_next_magia"><b>next</b>magia</string>
+    <string name="fingerprint_not_recognized">Digital não reconhecida</string>
+    <string name="title_access_code_change_device">código de Acesso</string>
+    <string name="header_wrong_fingerprint">Epa, deu erro na digital, coloca sua senha aí!</string>
+    <string name="login_recurring_password_wrong">Se você errar 3 vezes sua senha será bloqueada</string>
+    <string name="error_txt_first_access_invalid_code">Código inválido</string>
+
+
+    <!-- OTP error -->
+    <string name="header_invalid_otp">validação de segurança</string>
+    <string name="title_invalid_otp">Dados Inválidos</string>
+    <string name="men_invalid_otp">Não conseguimos fazer essa operação agora. Espere uns minutos para tentar novamente.</string>
+    <string name="text_dont_complete">Não foi possivel completar a operação.\nTente novamente !</string>
+
+    <!-- PasswordChangeNeeded -->
+    <string name="password_change_needed_message_title">Por motivos de segurança,\nvocê precisará alterar sua senha</string>
+    <string name="password_change_needed_message_description">Cadastra uma nova senha pra\nvoltar a acessar sua conta.</string>
+    <string name="password_change_needed_message_title_button">Trocar senha</string>
+    <string name="text_dont_have_app">Você não possui mais\nacesso ao aplicativo.</string>
+    <string name="text_account_next_stopped">Sua conta nextJoy foi encerrada, por isso\nvocê não pode mais acessar o app.</string>
+    <string-array name="update_theme_messages">
+        <item>Estamos atualizando seu\ntema, é rapidinho ;)</item>
+        <item>Carregando uma nova\nexperiência mágica para você</item>
+    </string-array>
+
+    <!-- Password Update -->
+    <string name="ops">OPS</string>
+    <string name="biometry_change_password_error">Parece que sua senha foi alterada.\nVamos precisar de sua nova senha.</string>
+
+    <!-- CPF NEXT LOGIN -->
+    <string name="next_cpf_alert_header_title">acesso não permitido</string>
+    <string name="next_cpf_alert_title">Não foi possível fazer login no\nnextJoy</string>
+    <string name="next_cpf_alert_content">Se você tem uma conta next ou quer gerenciar uma conta no nextJoy, acesse pelo app do next.</string>
+    <string name="next_cpf_alert_access_next_btn">acessar app next</string>
+    <string name="next_cpf_alert_know_more_btn">saiba mais sobre o nextJoy</string>
+
+    <!-- Network Unavailable -->
+    <string name="network_error_message_header">Sinal fraco ou inexistente</string>
+    <string name="network_error_message_title">Verifique sua conexão e tente\nnovamente!</string>
+    <string name="network_error_message_content">Sugerimos que conecte a uma rede wi-fi\npara prosseguir.</string>
+    <string name="network_error_message_btn">Tentar Novamente</string>
+</resources>
